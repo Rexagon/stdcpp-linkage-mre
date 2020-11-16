@@ -1,4 +1,4 @@
-#[link(name = "mylib")]
+#[link(name = "mylib", kind = "static")]
 extern "C" {
     fn test();
 }
